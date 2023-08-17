@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#ff5e14;
+    --bg-color:#151414;
+    --light-black:#373636;
+    --light-black-2:#2e2e2e;
+    --light-black-3:#202020;
+    --white-color:#fff;
+    --dark-gray:#757575;
+    --dark-gray-2:#7e7e7e;
+    --dark-gray-3:#878787;
+    --facebook:#3b5998;
+    --twitter:#55acee;
+    --instagram:#e93b81;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    /*font-family: 'crete round',serif;*/
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section{
+  /*background:var(--bg-color);*/
+  /*background: #E4E4E4;*/
+  background: #F2EEF3;
+  position:relative;
+  border-top: 1px dashed #000;
+}
+.footer-cta{
+  border-bottom:1px solid var(--light-black);
+}
+.single-cta i{
+  /*color:var(--primary-color);*/
+  font-size:30px;
+  float:left;
+  margin-top:8px;
+}
+.cta-text{
+  padding-left:15px;
+  display:inline-block;
+}
+.cta-text h4{
+  /*color:var(--white-color);*/
+  color: black;
+  font-size:20px;
+  font-weight: 700;
+  margin-bottom:2px;
+}
+.cta-text span{
+  /*color:var(--dark-gray);*/
+  font-size: 15px;
+}
+.footer-content{
+  position:relative;
+  z-index: 2;
+}
+.footer-logo{
+  margin-bottom:30px;
+}
+.footer-logo img{
+  max-width: 200px;
+  border-radius: 7px;
+}
+.footer-text p{
+  margin-bottom:14px;
+  font-size: 14px;
+  color:var(--dark-gray-2);
+  line-height: 28px;
+}
+.footer-social-icon span{
+  /*color:var(--white-color);*/
+  display:block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-social-icon a{
+  color:var(--white-color);
+  font-size: 16px;
+  margin-right:15px;
+}
+.footer-social-icon i{
+  height:40px;
+  width:40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background:var(--facebook);
+}
+.whatsaap-bg{
+  background:green;
+}
+.instagram-bg{
+  background:var(--instagram);
+}
+
+.footer-widget-heading h3{
+  /*color:var(--white-color);*/
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom:40px;
+  position:relative;
+}
+.footer-widget-heading h3::before{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:-15px;
+  height:2px;
+  width:50px;
+  /*background:var(--primary-color);*/
+  background: black;
+}
+.footer-widget ul li{
+  display:inline-block;
+  float:left;
+  width:50%;
+  margin-bottom:12px;
+}
+.footer-widget ul li a:hover{
+  color:var(--primary-color);
+}
+.footer-widget ul li a{
+  /*color:var(--dark-gray-3);*/
+  text-transform: capitalize;
+}
+.subscribe-form{
+  position:relative;
+  overflow:hidden;
+}
+.subscribe-form input{
+  width:100%;
+  padding:14px 28px;
+  background:var(--light-black-2);
+  border:1px solid var(--light-black-2);
+  color: white;
+}
+.subscribe-form button{
+  position:absolute;
+  right:0;
+  /*background:var(--primary-color);*/
+  background: black;
+  padding:13px 20px;
+ /*border:1px solid var(--primary-color);*/
+ /*border-color: black;*/
+ border-top: 1px dashed #000;
+  top:0;
+} 
+.subscribe-form button i{
+  /*color:var(--white-color);*/
+  color: #fed136;
+  font-size: 22px;
+  transform:rotate(-6deg);
+}
+.copyright-area{
+  /*background:var(--light-black-3);*/
+/*background:#D7D7D7;*/
+/*background: #2C2B2C;*/
+background:var(--light-black-2);
+padding-top: 25px;
+padding-bottom: 20px;
+}
+.copyright-text p{
+  margin:0;
+  font-size: 14px;
+  /*color:var(--dark-gray-3);*/
+  color: white;
+  text-align: center;
+}
+.copyright-text p a{
+  color:var(--primary-color);
+}
+.footer-menu li{
+  display:inline-block;
+  margin-left:20px;
+}
+.footer-menu li:hover a{
+  color:var(--primary-color);
+}
+.footer-menu li a{
+  font-size: 14px;
+  color:var(--dark-gray-3);
+}
+
+@media (max-width:1030px){
+  .mb-30{
+    margin-bottom:30px;
+  }
+  .footer-text p,
+  .footer-social-icon{
+    margin-bottom:30px;
+  }
+}
+
+@media (min-width: 1200px){
+.col-xl-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+          }
+}
+
+
+.lieu{
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.horaires{
+  font-size: 14px;
+}
+
+
+
